@@ -5,4 +5,66 @@
 
 /*font-family: "Raleway", "space Grotesk", sans-serif;*/
 /*font-family: "Space Grotesk", "Raleway", sans-serif;*/
+:root {
+    --white:       rgb(255, 255, 255);
+    --whiteop:     rgba(255, 255, 255, 0.7);
+    --light-grey:  rgb(218, 221, 226);
+    --dark-grey:   rgb(177, 189, 197);
+    --blue-grey:   rgb(136, 159, 165);
+    --light-green: rgb(98, 130, 129);
+    --dark-green:  rgb(75, 114, 102);
+    --dark-greenop: rgb(67, 101, 90, 0.7);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(var(--dark-greenop), 
+                                        var(--light-green), 
+                                        var(--blue-grey), 
+                                        var(--dark-grey), 
+                                        var(--light-grey));
+}
 
+#logo {
+    font-size: 40px;
+    font-family: "Space Grotesk", "Raleway", sans-serif;
+}
+#navbar-links {
+    font-size: 30px;
+    font-family: "Raleway", "space Grotesk", sans-serif;
+    color: var(--whiteop);
+}
+#navbar-links:hover {
+    color: var(--white);
+    text-shadow: 4px 4px 20px var(--dark-green);
+}
+
+#fig-text {
+    font-size: 90px;
+    font-weight: 700;
+    font-family: "Space Grotesk", "Raleway", sans-serif;
+}
+.fig-link {
+    text-decoration: none;
+    color: var(--whiteop);
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color:black;
+    transition: ease-in-out .2s;
+}
+.fig-link:hover {
+    color: var(--white);
+    -webkit-text-stroke-width: 8px;
+    text-decoration: underline;
+}
+#read_more_btn {
+    margin: 20px;
+    padding: 10px 30px;
+}
+.fa-brands {
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px;
+}

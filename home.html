@@ -3,19 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!--bootstrap link-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
 
-
+    <!--fontawesome link-->
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
-
+    <!--stylesheets-->
     <link rel="stylesheet" href="css/style.css">
 
     <title>Gideon Lane Blog Template and Webpage Design-home</title>
+
 </head>
+
 <body>
+
+<!--header section-->
+<section class="header">
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="logo" href="#">Gideon's Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto p-3 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link ps-3 pe-3 active" id="navbar-links" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ps-3 pe-3"  id="navbar-links" href="#">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link ps-3 pe-3"  id="navbar-links" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link ps-3 pe-3"  id="navbar-links" href="#">Contact</a>
+                      </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<!--blog_shop section-->
+<section class="blog_shop">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <figure class="figure position-relative">
+                    <img src="images/blog.jpg" class="figure-img img-fluid rounded" alt="blogging">
+                    <figcaption class="figure-caption position-absolute top-50 start-50 translate-middle text-white" id="fig-text"><a class="fig-link" href="#">Blog</a></figcaption>
+                </figure>
+            </div>
+            <div class="col">
+                <figure class="figure position-relative">
+                    <img src="images/blog_post3.jpg" class="figure-img img-fluid rounded"  alt="blogging">
+                    <figcaption class="figure-caption position-absolute top-50 start-50 translate-middle text-white text-center" id="fig-text"><a class="fig-link" href="#">My Templates</a></figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Card Section-->
+<section class="cards">
+   <div class="container">
+    <div class="row ms-5">
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+            <div class="card" style="width: 18rem;">
+                <h5 class="card-title">Card title</h5>
+                <div class="card-body">
+                    <img src="images/new_orleans.jpg" class="card-img-top" alt="new orlean trip">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-info text-white">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+            <div class="card" style="width: 18rem;">
+                <h5 class="card-title">Card title</h5>
+                <div class="card-body">
+                    <img src="images/school.jpg" class="card-img-top" alt="bootcamp classes">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-info text-white">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+            <div class="card" style="width: 18rem;">
+                <h5 class="card-title">Card title</h5>
+                <div class="card-body">
+                    <img src="images/oklahomagardens.jpg" class="card-img-top" alt="oklahomagardens">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-info text-white">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-12 text-center">
+            <button type="button" class="btn btn-info btn-lg text-white" id="read_more_btn">Read More</button>
+        </div>
+    </div>
+   </div>
+</section>
+
+<!--Thumbnail section-->
+<section class="thumbnail-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3">
+                <h2 class="fig-caption text-center">Gideon</h2>
+                <img class="img-fluid img-thumbnail" src="images/profile.png" alt="My profile">
+                <p class="fig-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.Odit ullam dolorem excepturi animi repudiandae delectus repellat voluptate.</p>
+                <button type="button" class="btn btn-info btn-lg text-white" id="profile_btn">Read More</button>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h2 class="fig-caption text-center">Shop for Templates</h2>
+                <img class="img-fluid img-thumbnail" src="images/blog_post3.jpg" alt="website template link">
+            </div>
+        </div>
+    </div>
+ <!--footer section-->   
+<footer class="Icon-links">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col m-3">
+                <a href="#"><i class="fa-brands fa-facebook"> Facebook</i></a>
+            </div>
+            <div class="col m-3">
+                <a href="#"><i class="fa-brands fa-github"> Github</i></a>
+            </div>
+            <div class="col m-3">
+                <a href="#"><i class="fa-brands fa-instagram"> Instagram</i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!--bootstrap link-->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
 </body>
 </html>
