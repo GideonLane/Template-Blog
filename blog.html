@@ -4,16 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--bootstrap link-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
 
-
+    <!--fontawesome link-->
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
+    <!--stylesheets-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
 
-    <title>Gideon Lane Blog Template and Webpage Design-blog</title>
+
+    <title>-Blog- Gideon Lane Blog Template and Webpage Design</title>
 </head>
 <body>
+
+    <!--header section-->
+<section class="header">
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="logo" href="index.html">Gideon's Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto p-3 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link ps-3 pe-3 active" id="navbar-links" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ps-3 pe-3"  id="navbar-links" href="blog.html">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link ps-3 pe-3"  id="navbar-links" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link ps-3 pe-3"  id="navbar-links" href="https://gideonlanedevportfolio.web.app/" target="_blank">Portfolio</a>
+                      </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+ <!--footer link section-->   
+ <footer class="Icon-links">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12" id="social-block">
+                <h1 class="social-title">Social</h1>
+            </div>
+            <div class="col m-3 p-3">
+                <ul>
+                    <a class="nav-link p-3" href="index.html"><li class="footer-list">Home</li></a>  
+                    <a class="nav-link p-3" href="blog.html"><li class="footer-list">Blog</li></a>  
+                    <a class="nav-link p-3" href="about.html"><li class="footer-list">About</li></a>  
+                    <a class="nav-link p-3" href="https://gideonlanedevportfolio.web.app/" target="_blank"><li class="footer-list">Portfolio</li></a>  
+                </ul>
+            </div>
+            <div class="col m-3" id="contact-block">
+                <i class="fa-solid fa-envelope" id="contact-icon"> Email</i>
+                <h2 class="contact">gideonlanedev@gmail.com</h2>
+                <i class="fa-solid fa-phone" id="contact-icon"> Phone</i>
+                <h2 class="contact">251-753-3983</h2>
+            </div>
+            <div class="col m-3">
+                <a href="https://github.com/GideonLane" target="_blank"><i class="fa-brands fa-github  align-middle"></i></a>
+                <a href="https://codepen.io/gideonlane" target="_blank" ><i class="fa-brands fa-codepen align-middle"></i></a>
+                <a href="https://www.linkedin.com/in/gideon-lane-43b237301/" target="_blank" ><i class="fa-brands fa-linkedin align-middle"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
