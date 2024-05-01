@@ -13,7 +13,7 @@
    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
    <!--stylesheets-->
    <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="css/blogpostportfolio.css">
+   <link rel="stylesheet" href="css/blog.post.css">
 
     <title>-Blog Portfolio Post- Gideon Lane Blog Template and Webpage Design</title>
 </head>
@@ -36,9 +36,6 @@
                         <a class="nav-link ps-3 pe-3"  id="navbar-links" href="blog.html">Blog</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link ps-3 pe-3"  id="navbar-links" href="about.html">About</a>
-                      </li>
-                      <li class="nav-item">
                         <a class="nav-link ps-3 pe-3"  id="navbar-links" href="https://gideonlanedevportfolio.web.app/" target="_blank">Portfolio</a>
                       </li>
                 </ul>
@@ -51,9 +48,16 @@
 <section class="blog">
     <div class="container">
         <div class="row">
-            <div class="col">
-                <h1>Header</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, facere fugit exercitationem consectetur corrupti sed deleniti itaque magnam maxime unde doloribus ut animi esse expedita repudiandae? Cumque magnam enim veritatis.</p>
+            <div class="col-sm-12 col-xl-6">
+                <h1 class="blog-header">Portfolio Website</h1>
+                <p class="blog-1">
+                    Build my person website really took a long time. I must have rebuilt it more times than I can count. I even decided to rebuild the entire 
+                    website using bootstrap instead of @media queries in honor of my new love for bootstrap. I feel a need to rework my website as of now because I feel like 
+                    the about page isn't really showing a great portfolio atmosphere and I don't want my future clients or potential employers to have to go to another page 
+                    to my portfolio. Resume needs work as well. I also would love to know enough PHP to build a backend for a form to direct to my email so that a potential 
+                    employer can just do a short forum to have me contact them later if thats convient for them. As of now this is the construction of my website currently and 
+                    why I built it the way I did and one day when I reconstruct it will show new content. Until then check out the process below.
+                </p>
             </div>
             <div class="col">
                 <img src="/images/portfolio.website.image.png" class="first_img img-fluid img-thumbnail"  width="700" alt="python code">
@@ -61,14 +65,79 @@
         </div>
         <div class="row">
             <div class="col">
-                <h1>Header</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quasi, hic quas culpa, commodi deserunt excepturi repellendus animi voluptatem nemo at, cupiditate perferendis. Voluptas dolor ea et possimus velit. Quas.</p>
-                <h1>Header</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quasi, hic quas culpa, commodi deserunt excepturi repellendus animi voluptatem nemo at, cupiditate perferendis. Voluptas dolor ea et possimus velit. Quas.</p>
-                <h1>Header</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quasi, hic quas culpa, commodi deserunt excepturi repellendus animi voluptatem nemo at, cupiditate perferendis. Voluptas dolor ea et possimus velit. Quas.</p>
+                <h1 class="blog-header">html header and footer</h1>
+                <p class="blog-1">
+                    I built the header and the footer together in one sitting as well as styling because I knew I would end up copying it alot on the other pages and wanted 
+                    to minimize the css as much as possible so I made it compatible with the other pages in mind. I used bootstrap 5 for the dynamic components for the website 
+                    to make it as user friendly but also to be able to build it as fast as possible because I didn't know javascript well enough to actually use it effeciently.
+                </p>
+                <p class="blog-1">
+                    overall I didn't find it too challenging to do because I've made more nav bars than anything else with html and css. I was able to just build it very quickly.
+                    maybe twenty minutes? The footer took a little longer as I had to figure out the best way to use my row and col containers and also give it classes that made 
+                    sense for styling purposes. 
+                </p>
             </div>
-            
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="/images/portfolio.code.index.png" class="first_img img-fluid img-thumbnail html-img"  width="800" alt="html code">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1 class="blog-header">design</h1>
+                <p class="blog-1">
+                    The design I wrote on paper first with containers and tags all labeled. It was a jumbled mess to anyone who saw it and I refuse to show it  here but it did the trick for me.
+                    I've always been a pen and paper guy. I chose the dark deep ocean like blue because it was my favorite color and felt it offered a good balance between dark and light mode.
+                    I chose the orangish yellow because I like the idea of it being like a deep ocean with a sunrise as the accent.
+                </p>
+                    <p class="blog-1">
+                        There has got to be a better way to design a logo. Really. That was alot of hard work. I basicly did css art and took a picture of it. That can't be the most proffesional way 
+                        but it was all I knew at the time. I think it came out well. It will give me some trouble concerning redesigning my website because its a image with the background color and size it 
+                        needs for this specific website nav bar. A problem for another time perhaps.
+                    </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h1 class="blog-header">css styling</h1>
+                <p class="blog-1">
+                    I found that having multiple stylesheets is helpful but also confusing. For all my pages I put the same stylesheet linked to the base stylesheet page 
+                        to keep everything as consistant as possible and used it primarly for anything that was used more than once with comments labeling each section beginning. 
+                        After that each page has its own stylesheet but kept very short. This makes modifying in the future much easier as if its dedicated to the specific page 
+                        I can go to that specific stylesheet. If its a universal style for the entirety of the web page I can go to the base stylesheet.
+            </p>
+                <p class="blog-1">
+                    The var color variables are universal to all the pages I found out as long as it also has that stylesheet linked to the html page. I found this awesome. 
+                        It made far less repeat code and now I can call upon that variable at any given page as long as the universal stylesheet was linked as well. Pretty cool.
+                </p>
+                <h1 class="blog-header">clamping Text Sizing</h1>
+                <p class="blog-1">
+                    I had alot of trouble getting my text components and containers to size correctly with bootstrap. I'm sure there is a way to do it but I did a little research becuase I 
+                    felt that @media queries where abit intense for just some texts and found that clamp is absolutely amazing. It allows for consistant font-size changes as the screen changes 
+                    sizes which was perfect. My containers would resize just fine but on the way to its size it would break several times doing all kinds of strange movements before
+                    reverting to the correct size. Clamp was a automatic fix.
+            </p>
+                <h1 class="blog-header">@media Queries</h1>
+                <p class="blog-1">
+                    I still had to use my good ole favorite for dynamic changing with @media queries. I just couln't get some of my containers to size the way I wanted them too with bootstrap.
+                    perhaps there is a way I haven't learned about yet but no ammount of research was getting me closer to the answer of using bootstrap for some of my components. I dont think 
+                    its bad practice to use @media queries, calc, or clam just because your primarly using bootstrap but Ill find out later. 
+                </p>
+                <p class="blog-1">
+                    Launching the project was something else. I ran into all kinds of problems. It was as if it was launched but wouldn't show any content. It was defaulted white page with a welcome 
+                    forum from the firebase website. This took me about a week to overcome. My first problem was in my JSON file. I needed to change my destination from main to source and change my 
+                    html page to index.html. I didn't realize that my html page had to be named index. I remember fixing it and it still not showing the content till about two days later. I guess it took time.
+                    I have no explination for that.
+                </p>
+                <p class="blog-1">
+                    My portfolio page had many challenges. The things I struggled with where the things I thought I finally understood and the things that came easy where the things I didn't know how 
+                    to do fluently. Overall I enjoyed the process. With every project there is something to learn from. 
+                </p>
+            </div>
+            <div class="col">
+                <img src="/images/portfolio.code.style.png" class="first_img img-fluid img-thumbnail"  width="600" alt="css code">
+            </div>
         </div>
     </div>
 </section>  
