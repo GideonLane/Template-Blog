@@ -24,6 +24,7 @@
     background-color: var(--dark-green);
     width: 18rem;
     height: 25rem;
+    margin-bottom: 20px;
 }
 .card-title {
     color: var(--white);

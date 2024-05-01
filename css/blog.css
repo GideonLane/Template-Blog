@@ -1,0 +1,30 @@
+/*Card Section*/
+.card {
+    background-color: var(--dark-green);
+    width: 18rem;
+    height: 25rem;
+}
+.card-title {
+    color: var(--white);
+    font-size: 30px;
+    margin: 5px;
+}
+.card-body {
+    background-color: var(--dark-grey);
+    border: solid 4px var(--blue-grey);
+}
+#card-button {
+    background-color: var(--blue-grey);
+    color: var(--whiteop);
+}
+#card-button:hover {
+    background-color: var(--dark-green);
+    color: var(--white);
+}
+.read_more {
+    text-decoration: none;
+    color: var(--whiteop);
+}
+.read_more:hover {
+    color: var(--white);
+}
